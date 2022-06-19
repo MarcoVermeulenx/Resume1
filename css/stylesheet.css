@@ -1,21 +1,28 @@
 
 
 body{
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 110%;
     background-color: #FCF7F8;
     background: #212121;
+    display: flex;
+    flex-direction: column;
 }
-
+.main{
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+}
 #profilePhoto{
-    width: 20%;  
-    height: 30%; 
-    border-radius: 400%;
+    width: 15%;  
+    height: 15%; 
+    border-radius: 50%;
     border: 2px solid #55ff33 ;
 }
 
 header{
     text-align: center;
+    justify-content: center;
 }
 #heading{
     color: #55ff33;
@@ -32,9 +39,9 @@ footer{
 }
 
 #sidebar{
-    width: 30%;
-    background-color: black;
-    color: #55ff33;
+    width: 20%;
+    background-color: #55ff33 ;
+    color: black;
     padding: 1rem;
 
 }
@@ -42,6 +49,7 @@ footer{
 .navlist{
     list-style-type: none;
     padding: 0%;
+    
 }
 
 #contents{
@@ -49,7 +57,7 @@ footer{
 }
 
 .icons{
- width: 3rem;
+ width: 6rem;
  margin: 0.5rem;   
 }
 
